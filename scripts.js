@@ -3,7 +3,8 @@ const ramens = [
     id: 1,
     name: "Shoyu Ramen",
     restaurant: "Ichiran",
-    image: "shoyu.jpg",
+    image:
+      "https://moringa.instructure.com/courses/967/files/517801/preview",
     rating: 5,
     comment: "Delicious!",
   },
@@ -11,7 +12,7 @@ const ramens = [
     id: 2,
     name: "Miso Ramen",
     restaurant: "Menya",
-    image: "miso.jpg",
+    image: "https://moringa.instructure.com/courses/967/files/517800/preview",
     rating: 4,
     comment: "Very flavorful!",
   },
@@ -19,6 +20,10 @@ const ramens = [
     id: 3,
     name: "Tonkotsu Ramen",
     restaurant: "Ramen-ya",
-    image: "tonkotsu.jpg",
-  },
+      image: "https://moringa.instructure.com/courses/967/files/517799/preview",
+      rating: 3,
+        comment: "Good but could be better.",
+    },
+  
+  
 ];
