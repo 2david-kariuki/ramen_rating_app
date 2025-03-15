@@ -27,3 +27,10 @@ const ramens = [
   
   
 ];
+
+function displayRamens() {
+    const ramenMenu = document.getElementById("ramen-menu");
+    ramenMenu.innerHTML = "";
+}
+
+ramens.forEach((ramen) => {
